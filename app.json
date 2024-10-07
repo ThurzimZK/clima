@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "clima",
+    "slug": "clima",
+    "version": "1.7.10",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thuzimzk.clima"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thuzimzk.clima"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7fa83d43-7351-4796-858b-880318038dab"
+      }
+    },
+    "owner": "thuzimzk",
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
